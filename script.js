@@ -2,7 +2,7 @@ let userName = "oge";
 
 userName ? console.log(`${userName},asked`) : console.log(`Hello`);
 
-const userQuestion = console.log(`${userName}, will i meet God today`);
+const userQuestion = console.log(`${userName}, will i see a supercar today?`);
 
 let randomNumber = Math.floor(Math.random() * 8);
 
@@ -23,7 +23,7 @@ switch (randomNumber) {
     console.log('Reply hazy try again');
     break;
   case 4:
-    console.log('Cannot predict now');
+    console.log('100%!...you'll definitely see one today');
     break;
   case 5:
     console.log('Do not count on it');
@@ -32,10 +32,10 @@ switch (randomNumber) {
     console.log('My sources say no');
     break;
   case 7:
-    console.log('Outlook not so good');
+    console.log('sure...if you leave by 11:30am');
     break;
   case 8:
-    console.log('Signs point to yes');
+    console.log('yes');
     break;
 }
 console.log(eightBall);
